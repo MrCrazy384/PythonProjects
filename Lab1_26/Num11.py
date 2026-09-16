@@ -7,3 +7,4 @@ while True:
         print(int(w))
     except ValueError:
         break
+

@@ -6,6 +6,6 @@ while True:
         q = n % k
         n = n - q
         n = n / k
-        print(int(n))
+        print(int(q))
     except ValueError:
         break
