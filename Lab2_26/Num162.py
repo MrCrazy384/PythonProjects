@@ -11,6 +11,9 @@ n = {1000: "Volodymur Vernadsuy",
 while True:
     try:
         q = int(input())
-        print(n.get(q, "No bill"))
+        if q in n:
+            print(f"{q}, {n[q]}")
+        else:
+            print("No Bill")
     except ValueError:
         break
